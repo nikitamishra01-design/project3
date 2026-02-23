@@ -1,0 +1,87 @@
+/* Testimonials Manager - Admin Styles */
+
+/* Meta Box Styles */
+.testimonial-meta-box {
+    padding: 10px 0;
+}
+
+.testimonial-meta-box p {
+    margin-bottom: 20px;
+}
+
+.testimonial-meta-box label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.testimonial-meta-box input[type="text"],
+.testimonial-meta-box select,
+.testimonial-meta-box textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.testimonial-meta-box input[type="text"]:focus,
+.testimonial-meta-box select:focus,
+.testimonial-meta-box textarea:focus {
+    outline: none;
+    border-color: #2271b1;
+    box-shadow: 0 0 0 3px rgba(34, 113, 177, 0.1);
+}
+
+.testimonial-meta-box .description {
+    display: block;
+    font-size: 12px;
+    color: #646970;
+    margin-top: 5px;
+}
+
+/* Star Rating in Admin */
+.testimonial-meta-box .rating-stars {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.testimonial-meta-box .rating-stars .star {
+    font-size: 20px;
+    cursor: pointer;
+    color: #ddd;
+    transition: color 0.2s ease;
+}
+
+.testimonial-meta-box .rating-stars .star:hover,
+.testimonial-meta-box .rating-stars .star.active {
+    color: #ffc107;
+}
+
+/* Column Styles in Admin List */
+.wp-list-table .column-rating {
+    width: 100px;
+}
+
+.wp-list-table .column-client_name {
+    width: 150px;
+}
+
+/* Admin Notice */
+.testimonials-admin-notice {
+    padding: 12px 20px;
+    background: #f0f0f1;
+    border-left: 4px solid #2271b1;
+    margin: 20px 0;
+}
+
+.testimonials-admin-notice.error {
+    border-left-color: #d63638;
+}
+
+.testimonials-admin-notice.success {
+    border-left-color: #00a32a;
+}
